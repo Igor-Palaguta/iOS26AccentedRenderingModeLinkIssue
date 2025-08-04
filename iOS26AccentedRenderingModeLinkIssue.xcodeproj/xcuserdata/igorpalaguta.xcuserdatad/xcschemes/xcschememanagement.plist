@@ -7,7 +7,7 @@
 		<key>AccentedImageWidgetExtension.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>iOS26AccentedRenderingModeLinkIssue.xcscheme_^#shared#^_</key>
 		<dict>
@@ -18,6 +18,11 @@
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
 		<key>8297AA172E409F61009BA693</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8297AA672E409FE9009BA693</key>
 		<dict>
 			<key>primary</key>
 			<true/>

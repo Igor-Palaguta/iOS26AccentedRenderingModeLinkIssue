@@ -7,13 +7,18 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
+    var url: URL? {
+        didSet {
+            informationLabel?.text = url?.absoluteString
+        }
+    }
+
+    @IBOutlet private var informationLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        informationLabel.text = url?.absoluteString ?? "No URL"
     }
-
-
 }
-

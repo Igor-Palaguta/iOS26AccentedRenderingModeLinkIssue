@@ -1,0 +1,1 @@
+When a SwiftUI widget uses a Link containing an Image modified with .widgetAccentedRenderingMode (using any mode except .fullColor), tapping the image on the widget launches the app but does not pass the expected deep link URL to the SceneDelegate.

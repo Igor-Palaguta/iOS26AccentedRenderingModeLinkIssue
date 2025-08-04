@@ -12,14 +12,6 @@
 				<string>myapp</string>
 			</array>
 		</dict>
-		<dict>
-			<key>CFBundleTypeRole</key>
-			<string>Editor</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>fb431687980220496</string>
-			</array>
-		</dict>
 	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
